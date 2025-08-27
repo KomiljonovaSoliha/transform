@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 27px 0px;
+    background-color: #F3D7B7;
+}
+
+.headercontainer {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+}
+
+.headermenu {
+    display: flex;
+    gap: 40px;
+}
+
+.headermenu li {
+    list-style: none;
+}
+
+.headermenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.headertitle {
+    color: #555555;
+}
+
+
+  .hero-section {
+    display: flex;
+    width: 1,440px;
+    height: 700px;
+    background-color: #F3D7B7;
+    
+
+  }
+  
+  
+  .hero-main-image {
+    position: absolute;
+    top: 0;
+    left: 200px;
+
+    width: 710px;
+height: 694px;
+margin-top: 80px;
+
+  }
+  
+  .hero-logo {
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    width: 159px;
+    height: 159px;
+    
+    
+  }
+  .rasm{
+    position: relative;
+  }
+  .text-content{
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 367px;
+    margin-left: 100px;
+    margin-top: 80px;
+    gap: 50px;
+    
+  }
+  .text-content h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+  }
+  .text-content p{
+    font-family: 'Roboto';
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+
+  }
+  .text-content button{
+    width: 193px;
+height: 51px;
+border-radius: 100px;
+color:white;
+background-color: #0A775F;
+border: none;
+  }
+  .container{
+    width: 1000px;
+height: 1600px;
+
+margin: 0 auto;
+padding-top: 108px;
+text-align: center;
+
+  }
+  .card1{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right p{
+    font-family: 'Roboto';
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+line-height: 34px;
+letter-spacing: 0px;
+width: 454px;
+height: 68px;
+
+
+  }
+  .tajriba{
+    width: 451px;
+height: 375px;
+
+  }
+  footer{
+    background-color:#F3D7B7;
+    height: 160px;
+    padding-top: 65px;
+    margin-top: 150px;
+
+  }
+  .footermenu {
+    display: flex;
+    gap: 40px;
+}
+
+.footermenu li {
+    list-style: none;
+}
+
+.footermenu a {
+    text-decoration: none;
+    color:#333333;
+    font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+
+}
+.footerContainer{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footerright{
+display: flex;
+gap: 30px;
+}
+.footerleft{
+    display: flex;
+}
+.tajriba:hover{
+    transform: scale(1.2);
+}
